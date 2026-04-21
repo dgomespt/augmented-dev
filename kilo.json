@@ -1,0 +1,9 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "skills": {
+    "paths": [
+      "skills/dockerized",
+      "skills/agentic-python"
+    ]
+  }
+}
