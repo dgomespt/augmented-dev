@@ -37,15 +37,7 @@ Copy `core/personality.md` to your project's root to apply default settings:
 
 ### Kilo
 
-```bash
-cp core/personality.md <your-project>/RTK.md
-```
-
-Or add to your existing `RTK.md`:
-
-```markdown
-$(cat core/personality.md)
-```
+Add the content to your `kilo.json` or project-level config.
 
 ### Claude Code
 
