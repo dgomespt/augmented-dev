@@ -31,21 +31,11 @@ Or run `/install-skill <skill-name>` in any Kilo session.
 ./install.sh --tool opencode --skill <skill-name>
 ```
 
-## Personality Configuration
+## Personality Configuration (Kilo only)
 
-Copy `core/personality.md` to your project's root to apply default settings:
+`core/personality.md` contains shared defaults (preferred base images, common volumes, agent frameworks). Add its content to your `kilo.json` or project-level config.
 
-### Kilo
-
-Add the content to your `kilo.json` or project-level config.
-
-### Claude Code
-
-Add to `CLAUDE.md` in your project:
-
-```markdown
-$(cat core/personality.md)
-```
+Claude Code and OpenCode load everything they need from the installed SKILL.md files directly.
 
 ## Skill Hierarchy
 

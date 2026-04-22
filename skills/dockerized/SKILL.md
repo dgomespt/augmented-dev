@@ -15,7 +15,7 @@ Universal Docker-first standards for all software projects.
 
 - **Host Isolation:** Never run language-specific commands on host (`pip`, `npm`, `cargo`, `go build`, etc.)
 - **Docker Only:** All builds and execution via `docker compose run`, `docker compose exec`, `docker run`, etc.
-- **Persistence:** Map logs, caches, and data directories to volumes in `docker-compose.yml`
+- **Persistence:** Map logs, caches, and data directories to volumes in `docker-compose.yml`. Common volumes: `/app/logs`, `/app/data`
 
 ## 2. Standard Files
 
